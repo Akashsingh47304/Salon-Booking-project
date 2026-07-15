@@ -238,7 +238,7 @@ DELETE /api/bookings/{id}
 
 **Akash Singh**
 
-Java Backend Developer | Spring Boot | Microservices | REST APIs | MySQL | Docker
+Java Backend Developer | Spring Boot | Microservices | REST APIs | MySQL | MongoDB | Docker
 
 ---
 
