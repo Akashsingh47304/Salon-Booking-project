@@ -1,11 +1,9 @@
 package com.example.payment_service.model;
 
 
+import com.example.payment_service.domain.PaymentMethod;
 import com.example.payment_service.domain.PaymentOrderStatus;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -19,10 +17,21 @@ public class PaymentOrder {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
+    @Column(nullable = false)
     private Long amount;
 
     private PaymentOrderStatus status=PaymentOrderStatus.PENDING;
 
+    @Column(nullable = false)
+    private PaymentMethod paymentMethod;
 
+    private String paymentLinkId;
+    @Column(nullable = false)
+    private Long userId;
+
+    @Column(nullable = false)
+    private Long bookingId;
+
+    @Column(nullable = false)
+    private Long salonId;
 }
