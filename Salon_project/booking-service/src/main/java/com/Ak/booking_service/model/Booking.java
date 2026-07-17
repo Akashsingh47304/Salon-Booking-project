@@ -7,6 +7,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.Set;
 
@@ -28,6 +29,10 @@ public class Booking {
     private LocalDateTime startTime;
 
     private LocalDateTime endTime;
+
+    private LocalDate bookingDate;
+
+
 
     @ElementCollection
     private Set<Long> serviceIds;

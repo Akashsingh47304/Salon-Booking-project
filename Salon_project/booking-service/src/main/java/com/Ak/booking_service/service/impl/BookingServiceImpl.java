@@ -59,6 +59,7 @@ public class BookingServiceImpl implements BookingService {
         booking.setEndTime(endTime);
         booking.setServiceIds(idList);
         booking.setTotalPrice(totalPrice);
+        booking.setBookingDate(startTime.toLocalDate());
         Booking savedBooking = bookingRepository.save(booking);
         log.info("Booking created successfully with id={}", savedBooking.getId());
 
