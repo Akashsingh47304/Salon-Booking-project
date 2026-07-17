@@ -1,5 +1,6 @@
 
-![Uploading ChatGPT Image Jul 17, 2026, 12_18_56 PM.png…]()
+<img width="1536" height="1024" alt="ChatGPT Image Jul 17, 2026, 12_18_56 PM" src="https://github.com/user-attachments/assets/60c04c1a-04b5-4a88-8223-cbb00804b9f8" />
+
 
 Salon Booking Microservices Application
 A comprehensive microservices-based salon booking platform built with Spring Boot, Spring Cloud, and Java 21. The system enables users to discover salons, book appointments, and process payments through a distributed architecture.
@@ -22,6 +23,12 @@ This project follows a microservices architecture with the following components:
 ┌───────▼──────┐   ┌──────▼──────┐   ┌──────▼──────┐
 │Category Svc  │   │Service Off. │   │Payment Svc  │
 └──────────────┘   └─────────────┘   └─────────────┘
+
+
+
+
+
+
 📦 Services
 Service	Port	Description
 eureka-server	8070	Service Discovery Server
