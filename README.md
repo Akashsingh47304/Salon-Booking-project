@@ -1,5 +1,6 @@
 
-<img width="1536" height="1024" alt="ChatGPT Image Jul 17, 2026, 12_18_56 PM" src="https://github.com/user-attachments/assets/60c04c1a-04b5-4a88-8223-cbb00804b9f8" />
+<img width="1536" height="1024" alt="ChatGPT Image Jul 17, 2026, 12_28_59 PM" src="https://github.com/user-attachments/assets/be69515c-5fc1-4c6f-807a-1eee1a231953" />
+
 
 
 Salon Booking Microservices Application
